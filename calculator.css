@@ -1,0 +1,56 @@
+.calculator {
+    background: #121212;
+}
+
+.display {
+    width: 40em;
+    height: 7em;
+    background: #B3B3B3;
+    color: #121212;
+}
+
+.button {
+    width: 10em;
+    height: 50px;
+}
+
+.zero-button {
+    width: 20em;
+    height: 50px;
+    width: 100%;
+}
+
+.percent-button {
+    background: #282828;
+    color: #B3B3B3;
+}
+
+.clear-button {
+    background: #282828;
+    color: #B3B3B3;
+}
+
+.backspace-button {
+    background: #282828;
+    color: #B3B3B3;
+}
+
+.operator-button {
+    background: #282828;
+    color: #B3B3B3;
+}
+
+.dot-button {
+    background: #404040;
+    color: #B3B3B3;
+}
+
+.equal-button {
+    background: #282828;
+    color: #B3B3B3;
+}
+
+.number-button{
+    background: #404040;
+    color: #B3B3B3;
+}

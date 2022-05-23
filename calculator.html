@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Calculator - Designed & Created by Wai Lok Cheng</title>
+</head>
+<link rel="stylesheet" href="calculator.css">
+<script type="text/javascript" src="calculator.js"></script>
+<body>
+  <table class="calculator">
+    <tr>
+      <td colspan="4"><input class="display" type="text" value="0" id="display" disabled/></td>
+    </tr>
+    <tr>
+      <td><button class="button percent-button" onclick="percentButton()">&#x25;</button></td>
+      <td><button class="button clear-button" onclick="clearButton()">C</button></td>
+      <td><button class="button backspace-button" onclick="backspaceButton()"><i class="material-icons">backspace</i></button></td>
+      <td><button class="button operator-button" onclick="divisionButton()">&#xf7;</button></td>
+    </tr>
+    <tr>
+      <td><button class="button number-button" onclick="numberButton('7')">7</button></td>
+      <td><button class="button number-button" onclick="numberButton('8')">8</button></td>
+      <td><button class="button number-button" onclick="numberButton('9')">9</button></td>
+      <td><button class="button operator-button" onclick="multiplicationButton()">&#xd7;</button></td>
+    </tr>
+    <tr>
+      <td><button class="button number-button" onclick="numberButton('4')">4</button></td>
+      <td><button class="button number-button" onclick="numberButton('5')">5</button></td>
+      <td><button class="button number-button" onclick="numberButton('6')">6</button></td>
+      <td><button class="button operator-button" onclick="subtractionButton()">&#x2212;</button></td>
+    </tr>
+    <tr>
+      <td><button class="button number-button" onclick="numberButton('1')">1</button></td>
+      <td><button class="button number-button" onclick="numberButton('2')">2</button></td>
+      <td><button class="button number-button" onclick="numberButton('3')">3</button></td>
+      <td><button class="button operator-button" onclick="additionButton()">&#x2b;</button></td>
+    </tr>
+    <tr>
+      <td><button class="button dot-button" onclick="dotButton()">.</button></td>
+      <td colspan="2"><button class="zero-button number-button" onclick="numberButton('0')">0</button></td>
+      <td><button class="button equal-button" onclick="equalButton()">&#x3d;</button></td>
+    </tr>
+  </table>
+</body>
+</html>
